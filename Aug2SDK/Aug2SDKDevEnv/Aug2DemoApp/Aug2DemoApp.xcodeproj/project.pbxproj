@@ -14,7 +14,6 @@
 		ACEA0E0528997A8800FF627A /* Aug2DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA0E0428997A8800FF627A /* Aug2DemoAppTests.swift */; };
 		ACEA0E0F28997A8800FF627A /* Aug2DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA0E0E28997A8800FF627A /* Aug2DemoAppUITests.swift */; };
 		ACEA0E1128997A8800FF627A /* Aug2DemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA0E1028997A8800FF627A /* Aug2DemoAppUITestsLaunchTests.swift */; };
-		ACEA0E2028997D1100FF627A /* Aug2SDK in Frameworks */ = {isa = PBXBuildFile; productRef = ACEA0E1F28997D1100FF627A /* Aug2SDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		ACEA0E0A28997A8800FF627A /* Aug2DemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aug2DemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEA0E0E28997A8800FF627A /* Aug2DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aug2DemoAppUITests.swift; sourceTree = "<group>"; };
 		ACEA0E1028997A8800FF627A /* Aug2DemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aug2DemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		ACEA0E1D28997C8E00FF627A /* Aug2SDK */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Aug2SDK; path = ../Aug2SDK; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACEA0E2028997D1100FF627A /* Aug2SDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +74,6 @@
 		ACEA0DE728997A8600FF627A = {
 			isa = PBXGroup;
 			children = (
-				ACEA0E1D28997C8E00FF627A /* Aug2SDK */,
 				ACEA0DF228997A8600FF627A /* Aug2DemoApp */,
 				ACEA0E0328997A8800FF627A /* Aug2DemoAppTests */,
 				ACEA0E0D28997A8800FF627A /* Aug2DemoAppUITests */,
@@ -156,7 +152,6 @@
 			);
 			name = Aug2DemoApp;
 			packageProductDependencies = (
-				ACEA0E1F28997D1100FF627A /* Aug2SDK */,
 			);
 			productName = Aug2DemoApp;
 			productReference = ACEA0DF028997A8600FF627A /* Aug2DemoApp.app */;
@@ -600,13 +595,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		ACEA0E1F28997D1100FF627A /* Aug2SDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Aug2SDK;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ACEA0DE828997A8600FF627A /* Project object */;
 }
