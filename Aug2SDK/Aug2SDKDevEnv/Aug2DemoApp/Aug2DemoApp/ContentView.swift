@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Aug2SDK
+import Aug5SDK
 
 struct ContentView: View {
     @State var angle: Double = 0

@@ -14,6 +14,8 @@
 		ACEA0E0528997A8800FF627A /* Aug2DemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA0E0428997A8800FF627A /* Aug2DemoAppTests.swift */; };
 		ACEA0E0F28997A8800FF627A /* Aug2DemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA0E0E28997A8800FF627A /* Aug2DemoAppUITests.swift */; };
 		ACEA0E1128997A8800FF627A /* Aug2DemoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA0E1028997A8800FF627A /* Aug2DemoAppUITestsLaunchTests.swift */; };
+		ACF2242428A01263006DBA5E /* Aug5SDK2 in Resources */ = {isa = PBXBuildFile; fileRef = ACF2242328A01263006DBA5E /* Aug5SDK2 */; };
+		ACF2242628A01290006DBA5E /* Aug5SDK in Frameworks */ = {isa = PBXBuildFile; productRef = ACF2242528A01290006DBA5E /* Aug5SDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		ACEA0E0A28997A8800FF627A /* Aug2DemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aug2DemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEA0E0E28997A8800FF627A /* Aug2DemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aug2DemoAppUITests.swift; sourceTree = "<group>"; };
 		ACEA0E1028997A8800FF627A /* Aug2DemoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aug2DemoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACF2242328A01263006DBA5E /* Aug5SDK2 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Aug5SDK2; path = ../../Aug5SDK2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF2242628A01290006DBA5E /* Aug5SDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +78,7 @@
 		ACEA0DE728997A8600FF627A = {
 			isa = PBXGroup;
 			children = (
+				ACF2242328A01263006DBA5E /* Aug5SDK2 */,
 				ACEA0DF228997A8600FF627A /* Aug2DemoApp */,
 				ACEA0E0328997A8800FF627A /* Aug2DemoAppTests */,
 				ACEA0E0D28997A8800FF627A /* Aug2DemoAppUITests */,
@@ -152,6 +157,7 @@
 			);
 			name = Aug2DemoApp;
 			packageProductDependencies = (
+				ACF2242528A01290006DBA5E /* Aug5SDK */,
 			);
 			productName = Aug2DemoApp;
 			productReference = ACEA0DF028997A8600FF627A /* Aug2DemoApp.app */;
@@ -241,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF2242428A01263006DBA5E /* Aug5SDK2 in Resources */,
 				ACEA0DFB28997A8800FF627A /* Preview Assets.xcassets in Resources */,
 				ACEA0DF828997A8800FF627A /* Assets.xcassets in Resources */,
 			);
@@ -595,6 +602,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ACF2242528A01290006DBA5E /* Aug5SDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Aug5SDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ACEA0DE828997A8600FF627A /* Project object */;
 }
