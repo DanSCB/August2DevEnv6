@@ -1,4 +1,4 @@
 [submodule "Aug2SDK/Aug5SDK2"]
-	path = Aug2SDK/Aug5SDK2
+	path = Aug2SDK/Aug7SDK2
 	url = https://github.com/DanSCB/August5SDK2
 	branch = development
